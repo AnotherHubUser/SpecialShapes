@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xsd:element name="backpack">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="capacity" type="xsd:string"/>
+                <xsd:element name="shapes" type="figures"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:complexType name="figures">
+        <xsd:sequence>
+            <xsd:element name="shape" maxOccurs="unbounded" minOccurs="0">
+                <xsd:complexType>
+<!--                    <xsd:attribute name="isPretty" type="xsd:string" use="required"/>-->
+                    <xsd:attribute name="side" type="xsd:string" use="required"/>
+                    <xsd:attribute name="type" type="xsd:string" use="required"/>
+                    <xsd:attribute name="high" type="xsd:string" use="optional"/>
+                    <xsd:attribute name="length" type="xsd:string" use="optional"/>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>

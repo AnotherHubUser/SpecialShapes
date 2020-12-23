@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<backpack>
+  <capacity>23323.0</capacity>
+  <shapes>
+    <shape side="12.0" type="Cube"/>
+  </shapes>
+</backpack>
