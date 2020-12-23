@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<backpack>
+  <capacity>1923096.0</capacity>
+  <shapes>
+    <shape isPretty="Yes" side="4.0" type=" Tetrahedron "/>
+    <shape isPretty="Yes" side="13.0" type=" Cylinder "/>
+    <shape isPretty="No" side="43.0" type=" Cube "/>
+    <shape isPretty="Yes" side="51.0" type=" Globe "/>
+  </shapes>
+</backpack>
